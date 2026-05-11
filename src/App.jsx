@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { createClient } from "@supabase/supabase-js";
 
-const SUPABASE_URL = "https://iinlalzytsgkemfqzzo.supabase.co";
+const SUPABASE_URL = "https://iinlalzytskgekmfqzzo.supabase.co";
 const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlpbmxhbHp5dHNrZ2VrbWZxenpvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg0OTAwNjEsImV4cCI6MjA5NDA2NjA2MX0.Cw82YPuP8q65OJsZuGmoYsnUGpV0U-okm7Td8NaWLEw";
 const DASHBOARD_ID = "main";
 const LOCAL_BACKUP_KEY = "poc-readiness-dashboard-backup-v2";
